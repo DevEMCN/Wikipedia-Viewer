@@ -1,0 +1,101 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #343d46;
+}
+
+#wrapper
+{
+	width: 80%;
+	margin: 0 auto;
+}
+.box
+{
+  	margin: 100px auto;
+  	width: 300px;
+  	height: 50px;
+}
+
+.container
+{
+	width: 300px;
+	vertical-align: middle;
+	white-space: nowrap;
+	position: relative;
+}
+
+.container input#search
+{
+  	width: 300px;
+  	height: 50px;
+  	background: #2b303b;
+  	border: none;
+  	font-size: 10pt;
+  	float: left;
+  	color: #63717f;
+  	padding-left: 45px;
+  	-webkit-border-radius: 5px;
+  	-moz-border-radius: 5px;
+  	border-radius: 5px;
+  	-webkit-transition: background .55s ease;
+	-moz-transition: background .55s ease;
+	-ms-transition: background .55s ease;
+	-o-transition: background .55s ease;
+	transition: background .55s ease;
+}
+
+.container input#search::-webkit-input-placeholder 
+{
+   	color: #65737e;
+}
+ 
+.container input#search:-moz-placeholder
+{ /* Firefox 18- */
+   	color: #65737e;  
+}
+ 
+.container input#search::-moz-placeholder 
+{  /* Firefox 19+ */
+   	color: #65737e;  
+}
+ 
+.container input#search:-ms-input-placeholder 
+{  
+   	color: #65737e;  
+}
+
+.container .icon
+{
+	position: absolute;
+	top: 50%;
+	margin-left: 17px;
+	margin-top: 17px;
+	z-index: 1;
+	color: #4f5b66;
+}
+
+.container input#search:hover, .container input#search:focus, .container input#search:active
+{
+    outline:none;
+    background: #ffffff;
+}
+
+.article
+{
+	background: #d3d3d3;
+	margin-bottom: 10px;
+}
+
+.summary
+{
+	width: 80%;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+a
+{
+	color: inherit;
+	text-decoration: none;
+}
