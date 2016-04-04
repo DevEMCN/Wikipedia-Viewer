@@ -15,7 +15,7 @@ $(document).ready(function()
 	    	var query = $("#search").val();
 	    	$.ajax({
 	        type: "GET",
-	        url: "http://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrsearch="+query+"&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&callback=?",
+	        url: "https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrsearch="+query+"&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&callback=?",
 	        contentType: "application/json; charset=utf-8",
 	        async: false,
 	        dataType: "json",
